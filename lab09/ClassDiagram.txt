@@ -1,0 +1,11 @@
+==============================
+CashRegister
+------------------------------
+- total: double
+- numProducts: int
+------------------------------
++ scanProduct(double): void
++ getTotal(): double
++ getNumProducts(): int
++ displayRegister(): void
+==============================
