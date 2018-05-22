@@ -28,7 +28,7 @@ class TimeTableExtra {
         // new line
         System.out.println();
         // dashes
-        for (int i = 1; i < (int)Math.floor(num * (cellSize + 1.5)); i++) {
+        for (int i = 1; i < (num + 1) * cellSize + num + 2; i++) {
             System.out.printf("-");
         }
         System.out.println();
